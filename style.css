@@ -3,6 +3,10 @@
             padding: 0;
         }
         
+        body{
+            background: rgb(22, 175, 150);
+        }
+
         .credits{
             font-size: 18px;
             position: relative;
@@ -11,7 +15,6 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .background{
-            background-color: rgb(22, 175, 150);
             height: 100vh;
             color: white;
             font-family: Arial, Helvetica, sans-serif;
@@ -53,4 +56,20 @@
             color: black;
             text-align: right;
             padding: 4px;
+        }
+
+        .creditos{
+            text-align: center;
+            position: static;
+            padding-top: 43rem;
+            font-family: sans-serif;
+            font-size: 22px;
+        }
+
+        .copyright{
+            font-size: 20px;
+            color: white;
+            text-shadow: 2px 2px 16px black;
+            text-align: center;
+            padding-top: 46rem;
         }
